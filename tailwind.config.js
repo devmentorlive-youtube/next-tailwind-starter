@@ -7,13 +7,11 @@ module.exports = {
   important: true,
   theme: {
     extend: {
-      colors: {
-        
-      },
+      colors: {},
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

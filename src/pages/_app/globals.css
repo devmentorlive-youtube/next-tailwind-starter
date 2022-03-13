@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-white bg-gray-900;
+}
+
 h1 {
-  @apply text-4xl text-gray-800 tracking-wider leading-4;
+  @apply text-5xl prose-2xl prose-invert;
 }
